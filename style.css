@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:lightgrey;
+}
+section{
+  background-color:white;
+  margin:30px;
+  padding:10px;
+  display: flex;
+}
+section div{
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 1;
+ 
+}
+.intro{text-align:left;
+      justfy-content:left;}
